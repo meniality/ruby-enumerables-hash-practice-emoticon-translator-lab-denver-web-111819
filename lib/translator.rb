@@ -21,7 +21,7 @@ def get_japanese_emoticon(file, english_emoticon)
   if emoticons[:get_emoticon][english_emoticon] 
     return emoticons[:get_emoticon][english_emoticon]
   else 
-    nil
+    return "Sorry, that emoticon was not found"
   end
   
 end
