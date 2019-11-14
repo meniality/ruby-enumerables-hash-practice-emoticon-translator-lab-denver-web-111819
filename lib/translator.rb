@@ -20,7 +20,8 @@ def get_japanese_emoticon(file, english_emoticon)
   
   if emoticons[:get_emoticon][english_emoticon] 
     
-  else return nil
+  else 
+    nil
   end
   
 end
