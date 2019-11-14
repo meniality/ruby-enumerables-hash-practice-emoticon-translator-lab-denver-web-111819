@@ -28,6 +28,6 @@ end
 
 def get_english_meaning(file, jap_emoticon)
   meaning = load_library(file)[:get_emoticon][jap_emoticon]
-  
+  meaning ? meaning: "Sorry, that emoticon was not found"
   
 end
