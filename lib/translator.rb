@@ -15,10 +15,10 @@ def load_library(file)
   new_hash
 end
 
-def get_japanese_emoticon(file, eniglish_emoticon)
+def get_japanese_emoticon(file, english_emoticon)
   load_library(file)
   
-  
+  emoticons[:get_meaning][english_emoticon]
   
 end
 
